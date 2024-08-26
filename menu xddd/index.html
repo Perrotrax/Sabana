@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de la Sabana HTML5</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Guía HTML5</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dashboard
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#antecedentes">1. Antecedentes</a>
+                        <a class="dropdown-item" href="#etiqueta">2. Etiqueta (Sintaxis Básica)</a>
+                        <a class="dropdown-item" href="#texto">3. Texto</a>
+                        <a class="dropdown-item" href="#listas">4. Listas</a>
+                        <a class="dropdown-item" href="#tablas">5. Tablas</a>
+                        <a class="dropdown-item" href="#imagen">6. Imagen</a>
+                        <a class="dropdown-item" href="#video">7. Video</a>
+                        <a class="dropdown-item" href="#audio">8. Audio</a>
+                        <a class="dropdown-item" href="#hipervinculo">9. Hipervínculo</a>
+                        <a class="dropdown-item" href="#formularios">10. Formularios</a>
+                        <a class="dropdown-item" href="#semanticas">11. Semánticas</a>
+                        <a class="dropdown-item" href="#frames">12. Frames</a>
+                        <a class="dropdown-item" href="#estructura">13. Estructura Básica de una Página HTML</a>
+                        <a class="dropdown-item" href="#meta">14. Meta</a>
+                        <a class="dropdown-item" href="#otras">15. Extras/Otras</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Secciones -->
+    <div class="container mt-4">
+        <section id="antecedentes" style="display:none;">
+            <h2>1. Antecedentes</h2>
+            <p>
+                HTML5 es la quinta revisión importante del lenguaje de marcado HTML (HyperText Markup Language) utilizado para estructurar y presentar contenido en la web. Los antecedentes de HTML5 están profundamente arraigados en la evolución de HTML y en la necesidad de adaptar la web a las nuevas demandas tecnológicas y de usuario. Aquí te doy un resumen de su desarrollo:
+                
+                1. Orígenes del HTML:
+                HTML 1.0 (1993): Desarrollado por Tim Berners-Lee en el CERN, HTML 1.0 fue la primera versión oficial del lenguaje, que permitía la creación de páginas web simples con hipervínculos, imágenes y texto.
+                HTML 2.0 (1995): Formalizó y estandarizó el lenguaje, incluyendo algunas mejoras como formularios y tablas básicas.
+                HTML 3.2 (1997): Introdujo más capacidades de presentación, como la alineación de texto, tablas más complejas y soporte para scripts embebidos.
+                HTML 4.01 (1999): Fue un hito importante, separando la estructura de la presentación mediante la introducción de hojas de estilo en cascada (CSS). También se centró en la accesibilidad y la internacionalización.
+                2. Necesidad de HTML5:
+                Problemas con HTML4 y XHTML: A medida que la web crecía, HTML4 y su sucesor, XHTML, enfrentaron desafíos en cuanto a la gestión de multimedia, interactividad, y la compatibilidad con dispositivos móviles. XHTML, en particular, era más estricto y menos flexible, lo que llevó a su adopción limitada.
+                Auge de las Aplicaciones Web: Con la explosión de la web 2.0 y el aumento de las aplicaciones web interactivas, se hizo evidente la necesidad de un nuevo estándar que pudiera soportar mejor gráficos, multimedia, y una interacción más rica, sin depender de plugins como Adobe Flash.
+                3. Desarrollo de HTML5:
+                Fundación del WHATWG (2004): Descontentos con la dirección de XHTML 2.0, varios desarrolladores de navegadores y otras partes interesadas formaron el Web Hypertext Application Technology Working Group (WHATWG) para crear un nuevo estándar que abordara las necesidades emergentes de la web. Esto marcó el comienzo del desarrollo de HTML5.
+                Colaboración con el W3C (2007): Aunque inicialmente fue un proyecto separado, el W3C (World Wide Web Consortium) se unió al desarrollo de HTML5, unificando los esfuerzos.
+                4. Lanzamiento de HTML5:
+                Borradores y Adopción Temprana: Las primeras versiones de trabajo de HTML5 comenzaron a circular alrededor de 2008. Muchos navegadores, como Google Chrome, Mozilla Firefox, y Apple Safari, comenzaron a implementar características de HTML5 antes de su finalización.
+                Especificación Oficial (2014): HTML5 se convirtió en una recomendación oficial del W3C en octubre de 2014. Introdujo nuevas etiquetas semánticas como < article > , < section >, < header>, y < footer>, soporte para video y audio sin necesidad de plugins externos, y APIs para gráficos y aplicaciones web avanzadas.
+                5. Impacto y Evolución Posterior:
+                Adopción Generalizada: HTML5 fue rápidamente adoptado por la industria tecnológica, impulsando el desarrollo de aplicaciones web más ricas y accesibles. Ayudó a estandarizar la experiencia del usuario en diferentes dispositivos y navegadores.
+                HTML5.1 y más allá: Desde el lanzamiento de HTML5, el estándar ha seguido evolucionando con actualizaciones menores (HTML5.1, HTML5.2) y la constante incorporación de nuevas características para soportar las necesidades crecientes de la web moderna.
+                HTML5 no solo representa una evolución técnica, sino también un cambio en cómo los desarrolladores y diseñadores piensan sobre la creación de contenido web, haciéndolo más accesible, semántico y preparado para el futuro.
+                
+                
+                
+                
+                
+                
+                </p>
+        </section>
+
+        <section id="etiqueta" style="display:none;">
+            <h2>2. Etiqueta (Sintaxis Básica)</h2>
+            <p>
+
+                ### 1. **Errores de Sintaxis**
+                
+                Asegúrate de que todos los elementos HTML estén correctamente cerrados y anidados. Los errores de sintaxis, como etiquetas no cerradas o mal anidadas, pueden causar fallos en la página.
+                
+                ### 2. **Problemas con Metaetiquetas**
+                
+                Verifica que las metaetiquetas esenciales estén correctamente configuradas. La metaetiqueta `viewport` es crucial para el diseño responsive en dispositivos móviles. La metaetiqueta de codificación de caracteres asegura que los caracteres especiales se muestren correctamente.
+                
+                ### 3. **Archivos CSS o JavaScript Externos**
+                
+                Asegúrate de que las rutas a los archivos CSS y JavaScript sean correctas y que los archivos estén disponibles en el servidor. Si los archivos no se cargan correctamente, la página puede no verse o comportarse como esperas.
+                
+                ### 4. **Compatibilidad con Navegadores**
+                
+                Prueba tu código en diferentes navegadores y dispositivos para identificar problemas de compatibilidad. A veces, un código puede funcionar en un navegador pero fallar en otro debido a diferencias en el soporte de características.
+                
+                ### 5. **Uso de Etiquetas Semánticas**
+                
+                Aunque las etiquetas semánticas son parte del estándar HTML5, algunos navegadores antiguos pueden no soportarlas bien. Asegúrate de proporcionar una estructura clara y considera usar soluciones alternativas si es necesario.
+                
+                ### 6. **Fallbacks y Polyfills**
+                
+                Para características avanzadas de HTML5, CSS3 o JavaScript que no están soportadas en navegadores antiguos, incluye polyfills. Estos scripts ayudan a que el código funcione en navegadores que no tienen soporte nativo para ciertas características.
+                
+                ### 7. **Errores de Carga de Recursos**
+                
+                Verifica que todos los recursos como imágenes, archivos CSS y JavaScript estén ubicados en las rutas correctas y sean accesibles. Un recurso que no se carga correctamente puede afectar la apariencia o el funcionamiento de la página.
+                
+                ### 8. **Errores de JavaScript**
+                
+                Usa las herramientas de desarrollo del navegador para depurar cualquier error en el código JavaScript. Revisa la consola del navegador para ver mensajes de error o advertencias que puedan indicar problemas con el script.
+                
+                ### 9. **Problemas con el HTML Dinámico**
+                
+                Si estás cargando contenido dinámico mediante JavaScript, asegúrate de manejar el DOM correctamente. Verifica que las funciones se llamen en el momento adecuado y que el contenido se actualice según lo esperado.
+                
+                ### 10. **Validación del Código**
+                
+                Utiliza herramientas de validación para verificar que tu código cumpla con los estándares HTML5. La validación puede ayudarte a identificar y corregir errores en el código.
+                
+                Siguiendo estas recomendaciones, puedes resolver problemas comunes y mejorar la robustez de tu código HTML5. Si tienes un problema específico, proporcionar detalles adicionales me permitirá ofrecer una solución más precisa.</p>
+        </section>
+
+        <section id="texto" style="display:none;">
+            <h2>3. Texto</h2>
+            <p>Cómo manejar texto en HTML5 es esencial para crear contenido web efectivo. En HTML5, puedes usar diversas etiquetas para estructurar y dar formato al texto. Algunas de las etiquetas más comunes incluyen:</p>
+            <ul>
+                <li><code>&lt;p&gt;</code>: Define un párrafo.</li>
+                <li><code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>: Define encabezados de diferentes niveles.</li>
+                <li><code>&lt;strong&gt;</code>: Define texto con énfasis fuerte (negrita).</li>
+                <li><code>&lt;em&gt;</code>: Define texto con énfasis (cursiva).</li>
+                <li><code>&lt;blockquote&gt;</code>: Define una cita en bloque.</li>
+                <li><code>&lt;code&gt;</code>: Define un fragmento de código.</li>
+                <li><code>&lt;pre&gt;</code>: Define texto preformateado.</li>
+            </ul>
+            <p>Además de estas etiquetas, HTML5 introduce nuevas opciones para trabajar con texto, como <code>&lt;mark&gt;</code> para resaltar texto, y <code>&lt;figcaption&gt;</code> para proporcionar una leyenda para figuras.</p>
+            <p>Para dar formato adicional al texto, se recomienda el uso de CSS para aplicar estilos como colores, fuentes, y márgenes. Esto permite mantener la separación entre el contenido y la presentación, siguiendo las mejores prácticas de desarrollo web.</p>
+        </section>
+        
+        <section id="listas" style="display:none;">
+            <h2>4. Listas</h2>
+            <p>Las listas en HTML5 son una manera de presentar elementos en un formato ordenado o desordenado. Existen tres tipos principales de listas:</p>
+            <ul>
+                <li><strong>Listas no ordenadas (<code>&lt;ul&gt;</code>):</strong> Se utilizan para crear listas de ítems sin un orden específico. Cada ítem se define con la etiqueta <code>&lt;li&gt;</code>. Por defecto, los ítems de una lista no ordenada se presentan con viñetas.</li>
+                <li><strong>Listas ordenadas (<code>&lt;ol&gt;</code>):</strong> Se utilizan para listas de ítems con un orden específico. Los ítems se definen también con <code>&lt;li&gt;</code>. Por defecto, los ítems en una lista ordenada se presentan con números o letras, dependiendo del atributo <code>type</code> que se puede aplicar a la etiqueta <code>&lt;ol&gt;</code>.</li>
+                <li><strong>Listas de definición (<code>&lt;dl&gt;</code>):</strong> Se utilizan para pares de términos y definiciones. Un término se define con <code>&lt;dt&gt;</code>, y su definición con <code>&lt;dd&gt;</code>. Las listas de definición son útiles para crear diccionarios o glosarios.</li>
+            </ul>
+            <p>Un ejemplo básico de cada tipo de lista es el siguiente:</p>
+            <pre><code>&lt;ul&gt;
+            &lt;li&gt;Elemento 1&lt;/li&gt;
+            &lt;li&gt;Elemento 2&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;ol&gt;
+            &lt;li&gt;Elemento 1&lt;/li&gt;
+            &lt;li&gt;Elemento 2&lt;/li&gt;
+        &lt;/ol&gt;
+        
+        &lt;dl&gt;
+            &lt;dt&gt;Término 1&lt;/dt&gt;
+            &lt;dd&gt;Definición del término 1&lt;/dd&gt;
+            &lt;dt&gt;Término 2&lt;/dt&gt;
+            &lt;dd&gt;Definición del término 2&lt;/dd&gt;
+        &lt;/dl&gt;</code></pre>
+            <p>Para personalizar la apariencia de las listas, puedes usar CSS para cambiar los estilos de los ítems, los números de las listas ordenadas, las viñetas y otros aspectos visuales.</p>
+        </section>
+        
+        <section id="tablas" style="display:none;">
+            <h2>5. Tablas</h2>
+            <p>Las tablas en HTML5 se utilizan para presentar datos en un formato tabular. Puedes crear tablas usando las siguientes etiquetas:</p>
+            <ul>
+                <li><strong>&lt;table&gt;</strong>: Define el contenedor para la tabla.</li>
+                <li><strong>&lt;tr&gt;</strong>: Define una fila en la tabla.</li>
+                <li><strong>&lt;th&gt;</strong>: Define una celda de encabezado en una fila. Generalmente se usa para los títulos de las columnas y se muestra en negrita y centrado.</li>
+                <li><strong>&lt;td&gt;</strong>: Define una celda de datos en una fila.</li>
+            </ul>
+            <p>Un ejemplo básico de una tabla sería:</p>
+            <pre><code>&lt;table&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Encabezado 1&lt;/th&gt;
+                &lt;th&gt;Encabezado 2&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Dato 1&lt;/td&gt;
+                &lt;td&gt;Dato 2&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Dato 3&lt;/td&gt;
+                &lt;td&gt;Dato 4&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;</code></pre>
+            <p>Para mejorar la apariencia de las tablas, puedes usar CSS para ajustar el diseño, como bordes, espaciado, colores y más. Por ejemplo, puedes usar la propiedad <code>border-collapse</code> para controlar el colapso de los bordes, y <code>text-align</code> para alinear el texto dentro de las celdas.</p>
+        </section>
+        
+        <section id="imagen" style="display:none;">
+            <h2>6. Imagen</h2>
+            <p>En HTML5, puedes insertar imágenes en una página web utilizando la etiqueta <code>&lt;img&gt;</code>. Esta etiqueta es auto-cerrada y se usa para mostrar imágenes en línea. Los atributos principales que puedes utilizar con <code>&lt;img&gt;</code> son:</p>
+            <ul>
+                <li><strong>src</strong>: Especifica la URL de la imagen que se va a mostrar. Este atributo es obligatorio.</li>
+                <li><strong>alt</strong>: Proporciona un texto alternativo para la imagen. Este texto se muestra si la imagen no puede ser cargada y es importante para la accesibilidad.</li>
+                <li><strong>width</strong> y <strong>height</strong>: Definen el ancho y la altura de la imagen en píxeles. Aunque son opcionales, es una buena práctica especificar estas dimensiones para mejorar el rendimiento de carga.</li>
+                <li><strong>title</strong>: Ofrece información adicional que se muestra cuando el usuario pasa el ratón sobre la imagen.</li>
+            </ul>
+            <p>Un ejemplo básico de cómo insertar una imagen sería:</p>
+            <pre><code>&lt;img src="ruta/a/imagen.jpg" alt="Descripción de la imagen" width="300" height="200"&gt;</code></pre>
+            <p>Para mejorar el diseño y la presentación de las imágenes, puedes usar CSS para aplicar estilos como bordes, márgenes, y ajustar la disposición de las imágenes dentro del contenedor. Por ejemplo, puedes usar las propiedades <code>border-radius</code> para redondear las esquinas de la imagen, y <code>display</code> para cambiar su alineación.</p>
+        </section>
+        
+        <section id="video" style="display:none;">
+            <h2>7. Video</h2>
+            <p>En HTML5, la etiqueta <code>&lt;video&gt;</code> permite incorporar videos directamente en una página web sin necesidad de complementos adicionales. Esta etiqueta ofrece varias opciones para controlar la reproducción del video.</p>
+            <p>Los atributos principales de la etiqueta <code>&lt;video&gt;</code> incluyen:</p>
+            <ul>
+                <li><strong>src</strong>: Especifica la URL del archivo de video. Aunque es posible usar este atributo, es más común definir las fuentes de video dentro de la etiqueta <code>&lt;source&gt;</code> para mayor flexibilidad.</li>
+                <li><strong>controls</strong>: Agrega controles de reproducción al video, como play, pausa y volumen. Este atributo es opcional, pero generalmente se recomienda para mejorar la experiencia del usuario.</li>
+                <li><strong>autoplay</strong>: Hace que el video comience a reproducirse automáticamente al cargar la página.</li>
+                <li><strong>loop</strong>: Hace que el video se repita automáticamente una vez que haya terminado de reproducirse.</li>
+                <li><strong>muted</strong>: Reproduce el video sin sonido.</li>
+                <li><strong>width</strong> y <strong>height</strong>: Definen el ancho y la altura del área de video en píxeles.</li>
+            </ul>
+            <p>Un ejemplo básico de cómo insertar un video sería:</p>
+            <pre><code>&lt;video width="640" height="360" controls&gt;
+            &lt;source src="ruta/a/video.mp4" type="video/mp4"&gt;
+            &lt;source src="ruta/a/video.webm" type="video/webm"&gt;
+            Su navegador no soporta la etiqueta &lt;video&gt;.
+        &lt;/video&gt;</code></pre>
+            <p>En el ejemplo, se incluyen múltiples fuentes de video para asegurar la compatibilidad con diferentes navegadores. La etiqueta <code>&lt;source&gt;</code> se usa para especificar diferentes formatos del video, lo que permite que el navegador seleccione el que pueda reproducir. También puedes proporcionar un mensaje alternativo para los navegadores que no soportan la etiqueta <code>&lt;video&gt;</code>.</p>
+            <p>Para mejorar el diseño y la integración del video en tu sitio web, puedes usar CSS para ajustar su tamaño, bordes, o posicionamiento dentro de la página.</p>
+        </section>
+        
+        <section id="audio" style="display:none;">
+            <h2>8. Audio</h2>
+            <p>En HTML5, la etiqueta <code>&lt;audio&gt;</code> permite insertar y reproducir archivos de audio directamente en una página web. Similar a la etiqueta <code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code> ofrece varias opciones para controlar la reproducción del audio.</p>
+            <p>Los atributos principales de la etiqueta <code>&lt;audio&gt;</code> incluyen:</p>
+            <ul>
+                <li><strong>src</strong>: Especifica la URL del archivo de audio. Aunque este atributo es opcional, es más común definir las fuentes de audio dentro de la etiqueta <code>&lt;source&gt;</code> para una mayor flexibilidad.</li>
+                <li><strong>controls</strong>: Agrega controles de reproducción al audio, como play, pausa y volumen. Este atributo es opcional, pero generalmente se recomienda para mejorar la experiencia del usuario.</li>
+                <li><strong>autoplay</strong>: Hace que el audio comience a reproducirse automáticamente al cargar la página.</li>
+                <li><strong>loop</strong>: Hace que el audio se repita automáticamente una vez que haya terminado de reproducirse.</li>
+                <li><strong>muted</strong>: Reproduce el audio sin sonido.</li>
+            </ul>
+            <p>Un ejemplo básico de cómo insertar un archivo de audio sería:</p>
+            <pre><code>&lt;audio controls&gt;
+            &lt;source src="ruta/a/audio.mp3" type="audio/mpeg"&gt;
+            &lt;source src="ruta/a/audio.ogg" type="audio/ogg"&gt;
+            Su navegador no soporta la etiqueta &lt;audio&gt;.
+        &lt;/audio&gt;</code></pre>
+            <p>En el ejemplo, se incluyen múltiples fuentes de audio para asegurar la compatibilidad con diferentes navegadores. La etiqueta <code>&lt;source&gt;</code> se usa para especificar diferentes formatos del audio, permitiendo que el navegador seleccione el que pueda reproducir. También puedes proporcionar un mensaje alternativo para los navegadores que no soportan la etiqueta <code>&lt;audio&gt;</code>.</p>
+            <p>Para mejorar el diseño y la integración del audio en tu sitio web, puedes usar CSS para ajustar el estilo del contenedor del audio, como el tamaño y la posición de los controles.</p>
+        </section>
+        
+        <section id="hipervinculo" style="display:none;">
+            <h2>9. Hipervínculo</h2>
+            <p>En HTML5, puedes crear enlaces o hipervínculos utilizando la etiqueta <code>&lt;a&gt;</code>. Los enlaces permiten a los usuarios navegar de una página a otra o acceder a recursos externos.</p>
+            <p>Los atributos principales de la etiqueta <code>&lt;a&gt;</code> incluyen:</p>
+            <ul>
+                <li><strong>href</strong>: Especifica la URL del recurso al que el enlace apunta. Este atributo es obligatorio para que el enlace funcione.</li>
+                <li><strong>target</strong>: Define cómo se abrirá el enlace. Algunos valores comunes son:
+                    <ul>
+                        <li><code>_self</code>: Abre el enlace en la misma ventana o pestaña (valor predeterminado).</li>
+                        <li><code>_blank</code>: Abre el enlace en una nueva ventana o pestaña.</li>
+                        <li><code>_parent</code>: Abre el enlace en el marco padre del iframe actual.</li>
+                        <li><code>_top</code>: Abre el enlace en el marco superior.</li>
+                    </ul>
+                </li>
+                <li><strong>title</strong>: Proporciona un texto alternativo que se muestra cuando el usuario pasa el ratón sobre el enlace.</li>
+                <li><strong>rel</strong>: Define la relación entre el documento actual y el documento enlazado. Por ejemplo, <code>rel="noopener noreferrer"</code> se usa para mejorar la seguridad cuando se abren enlaces en una nueva ventana.</li>
+            </ul>
+            <p>Un ejemplo básico de cómo crear un enlace sería:</p>
+            <pre><code>&lt;a href="https://www.ejemplo.com" target="_blank" title="Ir a Ejemplo"&gt;Visitar Ejemplo&lt;/a&gt;</code></pre>
+            <p>En el ejemplo, el enlace abre la URL <code>https://www.ejemplo.com</code> en una nueva ventana o pestaña, y el texto del enlace es "Visitar Ejemplo".</p>
+            <p>Para personalizar el estilo del enlace, puedes usar CSS para cambiar su color, subrayado, y otros estilos visuales. Por ejemplo, puedes usar la pseudo-clase <code>:hover</code> para aplicar estilos cuando el usuario pasa el ratón sobre el enlace.</p>
+        </section>
+        
+        <section id="formularios" style="display:none;">
+            <h2>10. Formularios</h2>
+            <p>En HTML5, los formularios se utilizan para recolectar datos de los usuarios a través de una variedad de controles. La etiqueta principal para definir un formulario es <code>&lt;form&gt;</code>, y dentro de ella, puedes usar diferentes elementos para crear campos de entrada, botones y otras herramientas de interacción.</p>
+            <p>Los elementos comunes dentro de un formulario incluyen:</p>
+            <ul>
+                <li><strong>&lt;input&gt;</strong>: Define un campo de entrada. Puedes usar diferentes tipos de entrada especificados con el atributo <code>type</code>, como <code>text</code>, <code>password</code>, <code>email</code>, <code>number</code>, <code>checkbox</code>, <code>radio</code>, <code>file</code>, entre otros.</li>
+                <li><strong>&lt;label&gt;</strong>: Define una etiqueta para un control de entrada. Es útil para proporcionar texto descriptivo para los campos del formulario y mejorar la accesibilidad.</li>
+                <li><strong>&lt;textarea&gt;</strong>: Define un área de texto de varias líneas para que el usuario pueda ingresar texto más largo.</li>
+                <li><strong>&lt;select&gt;</strong>: Define un menú desplegable con opciones. Cada opción se define con la etiqueta <code>&lt;option&gt;</code>.</li>
+                <li><strong>&lt;button&gt;</strong>: Define un botón que puede ser de tipo <code>submit</code>, <code>reset</code> o <code>button</code>. Los botones de tipo <code>submit</code> envían el formulario, mientras que los de tipo <code>reset</code> restablecen los campos del formulario.</li>
+                <li><strong>&lt;fieldset&gt;</strong>: Agrupa controles relacionados dentro de un formulario. Puedes usar la etiqueta <code>&lt;legend&gt;</code> dentro de <code>&lt;fieldset&gt;</code> para proporcionar un título para el grupo de controles.</li>
+            </ul>
+            <p>Un ejemplo básico de un formulario sería:</p>
+            <pre><code>&lt;form action="/enviar-formulario" method="post"&gt;
+            &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+            &lt;input type="text" id="nombre" name="nombre" required&gt;
+            
+            &lt;label for="email"&gt;Correo electrónico:&lt;/label&gt;
+            &lt;input type="email" id="email" name="email" required&gt;
+            
+            &lt;label for="mensaje"&gt;Mensaje:&lt;/label&gt;
+            &lt;textarea id="mensaje" name="mensaje" rows="4" required&gt;&lt;/textarea&gt;
+            
+            &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+        &lt;/form&gt;</code></pre>
+            <p>En el ejemplo, el formulario incluye campos para el nombre, correo electrónico y un mensaje. El atributo <code>action</code> de la etiqueta <code>&lt;form&gt;</code> especifica la URL a la que se enviarán los datos del formulario, y el atributo <code>method</code> define el método HTTP para el envío (en este caso, <code>post</code>).</p>
+            <p>Para personalizar el estilo de los formularios, puedes usar CSS para ajustar la apariencia de los campos de entrada, botones y otros elementos del formulario. Por ejemplo, puedes aplicar estilos para mejorar la disposición y el diseño visual del formulario en tu sitio web.</p>
+        </section>
+        
+        <section id="semanticas" style="display:none;">
+            <h2>11. Semánticas</h2>
+            <p>HTML5 introduce varios elementos semánticos que proporcionan significado y estructura al contenido de una página web. Estos elementos no solo mejoran la accesibilidad y el SEO, sino que también facilitan la comprensión del contenido por parte de los desarrolladores y los navegadores.</p>
+            <p>Algunos de los elementos semánticos más comunes en HTML5 son:</p>
+            <ul>
+                <li><strong>&lt;header&gt;</strong>: Define la cabecera de un documento o de una sección. Generalmente contiene elementos como el título, logotipos, y menús de navegación.</li>
+                <li><strong>&lt;nav&gt;</strong>: Define un bloque de enlaces de navegación. Se utiliza para agrupar enlaces a otras páginas o secciones dentro del mismo sitio.</li>
+                <li><strong>&lt;main&gt;</strong>: Define el contenido principal del documento, excluyendo los encabezados, pies de página y barras laterales. Debería usarse solo una vez por documento.</li>
+                <li><strong>&lt;article&gt;</strong>: Define un contenido independiente y autónomo que puede ser distribuido o reutilizado de forma separada. Ejemplos incluyen publicaciones de blog, noticias, o artículos.</li>
+                <li><strong>&lt;section&gt;</strong>: Define una sección temática dentro de un documento. Se utiliza para agrupar contenido relacionado, generalmente con un encabezado.</li>
+                <li><strong>&lt;aside&gt;</strong>: Define contenido relacionado pero tangencialmente relacionado con el contenido principal. Se utiliza para notas laterales, barras laterales o información adicional.</li>
+                <li><strong>&lt;footer&gt;</strong>: Define el pie de página de un documento o de una sección. Generalmente contiene información como datos de contacto, derechos de autor o enlaces a otras páginas.</li>
+                <li><strong>&lt;figure&gt;</strong>: Define contenido gráfico o ilustrativo, como imágenes, gráficos o diagramas, junto con una leyenda proporcionada por la etiqueta <code>&lt;figcaption&gt;</code>.</li>
+                <li><strong>&lt;figcaption&gt;</strong>: Proporciona una leyenda para el contenido de la etiqueta <code>&lt;figure&gt;</code>.</li>
+                <li><strong>&lt;time&gt;</strong>: Define una fecha o una hora. Permite especificar la información temporal de manera que los navegadores y otras aplicaciones puedan interpretarla de manera adecuada.</li>
+            </ul>
+            <p>Un ejemplo de uso de algunos elementos semánticos sería:</p>
+            <pre><code>&lt;header&gt;
+            &lt;h1&gt;Título del Sitio&lt;/h1&gt;
+            &lt;nav&gt;
+                &lt;a href="#home"&gt;Inicio&lt;/a&gt;
+                &lt;a href="#about"&gt;Sobre Nosotros&lt;/a&gt;
+                &lt;a href="#contact"&gt;Contacto&lt;/a&gt;
+            &lt;/nav&gt;
+        &lt;/header&gt;
+        
+        &lt;main&gt;
+            &lt;article&gt;
+                &lt;h2&gt;Título del Artículo&lt;/h2&gt;
+                &lt;p&gt;Contenido del artículo...&lt;/p&gt;
+            &lt;/article&gt;
+            &lt;aside&gt;
+                &lt;h3&gt;Notas Laterales&lt;/h3&gt;
+                &lt;p&gt;Información adicional o comentarios...&lt;/p&gt;
+            &lt;/aside&gt;
+        &lt;/main&gt;
+        
+        &lt;footer&gt;
+            &lt;p&gt;Derechos de autor © 2024&lt;/p&gt;
+        &lt;/footer&gt;</code></pre>
+            <p>En el ejemplo, se utiliza <code>&lt;header&gt;</code> para definir la cabecera del sitio, <code>&lt;nav&gt;</code> para los enlaces de navegación, <code>&lt;main&gt;</code> para el contenido principal, <code>&lt;article&gt;</code> para un artículo, <code>&lt;aside&gt;</code> para contenido adicional, y <code>&lt;footer&gt;</code> para el pie de página.</p>
+            <p>Utilizar elementos semánticos ayuda a estructurar el contenido de manera lógica y a mejorar la accesibilidad y la indexación por motores de búsqueda.</p>
+        </section>
+        
+        <section id="frames" style="display:none;">
+            <h2>12. Frames</h2>
+            <p>En HTML5, el uso de frames, o marcos, ha sido eliminado en favor de técnicas más modernas como el diseño basado en CSS y el uso de iframes para incrustar contenido externo. En versiones anteriores de HTML, los frames se usaban para dividir la ventana del navegador en múltiples áreas independientes, cada una con su propio documento.</p>
+            <p>El elemento <code>&lt;frameset&gt;</code> y <code>&lt;frame&gt;</code> se usaban en HTML 4.01 para definir un conjunto de frames y especificar sus propiedades. Sin embargo, en HTML5, estos elementos han sido obsoletos y ya no son recomendados para el diseño de páginas web.</p>
+            <p>En lugar de frames, HTML5 y CSS ofrecen alternativas más flexibles y potentes:</p>
+            <ul>
+                <li><strong>&lt;iframe&gt;</strong>: Se utiliza para incrustar un documento HTML dentro de una página. Aunque no es un reemplazo directo de los frames, <code>&lt;iframe&gt;</code> permite mostrar contenido externo, como videos o mapas, dentro de una página. Puedes controlar su tamaño y posición con CSS.</li>
+                <li><strong>CSS Flexbox y Grid:</strong> Estas técnicas modernas de diseño en CSS permiten crear layouts complejos y flexibles sin la necesidad de frames. Puedes usar <code>display: flex</code> o <code>display: grid</code> para organizar y alinear el contenido en una página de manera eficiente.</li>
+                <li><strong>Responsive Design:</strong> Utilizando media queries en CSS, puedes diseñar layouts que se adaptan a diferentes tamaños de pantalla y dispositivos, eliminando la necesidad de frames fijos.</li>
+            </ul>
+            <p>Un ejemplo básico de uso de <code>&lt;iframe&gt;</code> sería:</p>
+            <pre><code>&lt;iframe src="https://www.ejemplo.com" width="600" height="400" frameborder="0"&gt;
+            &lt;p&gt;Tu navegador no soporta iframes.&lt;/p&gt;
+        &lt;/iframe&gt;</code></pre>
+            <p>En el ejemplo, el <code>&lt;iframe&gt;</code> incrusta el contenido de <code>https://www.ejemplo.com</code> en la página actual, con un tamaño de 600x400 píxeles y sin bordes.</p>
+            <p>Para el diseño de páginas web modernas, se recomienda utilizar <code>&lt;iframe&gt;</code> junto con técnicas avanzadas de CSS en lugar de frames, para lograr un diseño más accesible, flexible y compatible con los estándares web actuales.</p>
+        </section>
+        
+        <section id="estructura" style="display:none;">
+            <h2>13. Estructura Básica de una Página HTML</h2>
+            <p>En HTML5, la estructura básica de una página web se compone de varios elementos fundamentales que organizan el contenido y definen su presentación. A continuación, se describe la estructura básica que debes seguir para crear una página HTML5:</p>
+            
+            <pre><code>&lt;!DOCTYPE html&gt;
+        &lt;html lang="es"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Título de la Página&lt;/title&gt;
+                &lt;link rel="stylesheet" href="estilos.css"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;header&gt;
+                    &lt;h1&gt;Encabezado Principal&lt;/h1&gt;
+                    &lt;nav&gt;
+                        &lt;a href="#section1"&gt;Sección 1&lt;/a&gt;
+                        &lt;a href="#section2"&gt;Sección 2&lt;/a&gt;
+                    &lt;/nav&gt;
+                &lt;/header&gt>
+                
+                &lt;main&gt;
+                    &lt;section id="section1"&gt;
+                        &lt;h2&gt;Título de la Sección 1&lt;/h2&gt;
+                        &lt;p&gt;Contenido de la primera sección.&lt;/p&gt;
+                    &lt;/section&gt;
+                    
+                    &lt;section id="section2"&gt;
+                        &lt;h2&gt;Título de la Sección 2&lt;/h2&gt;
+                        &lt;p&gt;Contenido de la segunda sección.&lt;/p&gt;
+                    &lt;/section&gt;
+                &lt;/main&gt;
+                
+                &lt;footer&gt;
+                    &lt;p&gt;Derechos de autor © 2024&lt;/p&gt;
+                &lt;/footer&gt;
+            &lt;/body&gt;
+        &lt;/html&gt;</code></pre>
+            
+            <p>La estructura básica de una página HTML5 incluye los siguientes elementos principales:</p>
+            <ul>
+                <li><strong>&lt;!DOCTYPE html&gt;</strong>: Declara el tipo de documento y la versión de HTML (HTML5 en este caso). Es importante incluirlo al principio del documento.</li>
+                <li><strong>&lt;html&gt;</strong>: Define el inicio del documento HTML. Debe incluir el atributo <code>lang</code> para especificar el idioma del contenido.</li>
+                <li><strong>&lt;head&gt;</strong>: Contiene metadatos sobre el documento, como el título de la página, el conjunto de caracteres, el viewport para dispositivos móviles, y enlaces a hojas de estilo externas.</li>
+                <li><strong>&lt;meta charset="UTF-8"&gt;</strong>: Define el conjunto de caracteres utilizado en el documento, asegurando la correcta visualización de caracteres especiales.</li>
+                <li><strong>&lt;title&gt;</strong>: Establece el título de la página, que se muestra en la pestaña del navegador.</li>
+                <li><strong>&lt;link rel="stylesheet" href="estilos.css"&gt;</strong>: Vincula una hoja de estilo externa para la presentación visual del contenido.</li>
+                <li><strong>&lt;body&gt;</strong>: Contiene el contenido visible de la página, incluyendo <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, y <code>&lt;footer&gt;</code>.</li>
+                <li><strong>&lt;header&gt;</strong>: Define la cabecera del documento o de una sección, y suele contener el título y la navegación.</li>
+                <li><strong>&lt;main&gt;</strong>: Define el contenido principal del documento, excluyendo la cabecera y el pie de página.</li>
+                <li><strong>&lt;section&gt;</strong>: Divide el contenido en secciones temáticas.</li>
+                <li><strong>&lt;footer&gt;</strong>: Define el pie de página del documento o de una sección, e incluye información como derechos de autor y enlaces adicionales.</li>
+            </ul>
+            
+            <p>Esta estructura proporciona una base sólida para desarrollar una página web accesible, bien organizada y compatible con los estándares modernos.</p>
+        </section>
+        
+        <section id="meta" style="display:none;">
+            <h2>14. Meta</h2>
+            <p>Las metaetiquetas en HTML5 se utilizan para proporcionar información adicional sobre el documento que no es visible directamente en la página web. Estas etiquetas se colocan dentro del elemento <code>&lt;head&gt;</code> y sirven para definir metadatos como el conjunto de caracteres, la descripción del contenido, las palabras clave, y la configuración de la vista en dispositivos móviles.</p>
+            
+            <p>Algunos de los atributos más comunes de las metaetiquetas son:</p>
+            <ul>
+                <li><strong><code>&lt;meta charset="UTF-8"&gt;</code></strong>: Define el conjunto de caracteres utilizado en el documento. <code>UTF-8</code> es el conjunto de caracteres más común y soporta una amplia gama de caracteres internacionales.</li>
+                <li><strong><code>&lt;meta name="description" content="Descripción del contenido"&gt;</code></strong>: Proporciona una breve descripción del contenido de la página. Esta descripción es utilizada por los motores de búsqueda para mostrar un resumen en los resultados de búsqueda.</li>
+                <li><strong><code>&lt;meta name="keywords" content="palabra1, palabra2, palabra3"&gt;</code></strong>: Especifica palabras clave relacionadas con el contenido de la página. Aunque los motores de búsqueda modernos le dan menos importancia a este atributo, aún puede ser útil para algunos propósitos.</li>
+                <li><strong><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></strong>: Configura cómo se debe mostrar la página en dispositivos móviles. El atributo <code>width=device-width</code> asegura que el contenido se ajuste al ancho del dispositivo, y <code>initial-scale=1.0</code> establece el nivel de zoom inicial.</li>
+                <li><strong><code>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;</code></strong>: Define la versión de Internet Explorer que se debe utilizar para renderizar la página. Esto es útil para garantizar la compatibilidad con versiones más antiguas del navegador.</li>
+                <li><strong><code>&lt;meta name="robots" content="index, follow"&gt;</code></strong>: Controla cómo los motores de búsqueda deben indexar y seguir enlaces en la página. Los valores comunes incluyen <code>index</code>, <code>noindex</code>, <code>follow</code>, y <code>nofollow</code>.</li>
+            </ul>
+            
+            <p>Un ejemplo básico de uso de metaetiquetas sería:</p>
+            <pre><code>&lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="description" content="Este es un ejemplo de página HTML5 con metaetiquetas"&gt;
+            &lt;meta name="keywords" content="HTML5, metaetiquetas, ejemplo"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+            &lt;meta name="robots" content="index, follow"&gt;
+            &lt;title&gt;Ejemplo de Metaetiquetas&lt;/title&gt;
+        &lt;/head&gt;</code></pre>
+            
+            <p>En este ejemplo, las metaetiquetas configuran el conjunto de caracteres, proporcionan una descripción y palabras clave para motores de búsqueda, ajustan el diseño para dispositivos móviles, y establecen la compatibilidad con versiones de Internet Explorer.</p>
+            
+            <p>El uso adecuado de metaetiquetas puede mejorar la visibilidad en los motores de búsqueda, la compatibilidad con navegadores y la experiencia general del usuario en diferentes dispositivos.</p>
+        </section>
+        
+        <section id="otras" style="display:none;">
+            <h2>15. Extras/Otras</h2>
+            <p>En esta sección, abordamos algunos temas adicionales y útiles en HTML5 que no se han cubierto en las secciones anteriores. Estos temas abarcan características avanzadas, elementos adicionales y buenas prácticas que pueden mejorar la funcionalidad y el rendimiento de tus páginas web.</p>
+            
+            <p>Algunos temas adicionales incluyen:</p>
+            <ul>
+                <li><strong>&lt;script&gt;</strong>: Permite incorporar código JavaScript en tu documento HTML. Puedes usarlo para añadir interactividad y funcionalidad dinámica a tu página. Ejemplo:</li>
+                <pre><code>&lt;script src="script.js"&gt;&lt;/script&gt;</code></pre>
+                <li><strong>&lt;noscript&gt;</strong>: Se utiliza para proporcionar contenido alternativo para navegadores que tienen JavaScript desactivado o no soportan JavaScript. Ejemplo:</li>
+                <pre><code>&lt;noscript&gt;
+            &lt;p&gt;JavaScript está desactivado en tu navegador. Algunas funcionalidades pueden no estar disponibles.&lt;/p&gt;
+        &lt;/noscript&gt;</code></pre>
+                <li><strong>Web Storage:</strong> HTML5 introduce dos mecanismos de almacenamiento en el navegador: <code>localStorage</code> y <code>sessionStorage</code>. Estos permiten guardar datos en el navegador de manera más eficiente que las cookies. Ejemplo básico de uso de <code>localStorage</code>:</li>
+                <pre><code>// Guardar un ítem
+        localStorage.setItem('nombre', 'Juan');
+        
+        // Recuperar un ítem
+        const nombre = localStorage.getItem('nombre');
+        console.log(nombre); // "Juan"</code></pre>
+                <li><strong>Web Workers:</strong> Permiten ejecutar scripts en segundo plano, lo que puede mejorar el rendimiento de las aplicaciones web al realizar tareas intensivas sin bloquear la interfaz de usuario. Ejemplo básico:</li>
+                <pre><code>// main.js
+        const worker = new Worker('worker.js');
+        worker.postMessage('Hello Worker');
+        
+        // worker.js
+        self.onmessage = function(event) {
+            console.log(event.data); // "Hello Worker"
+            self.postMessage('Hello Main');
+        };</code></pre>
+                <li><strong>API de Geolocalización:</strong> Permite acceder a la ubicación del usuario. Asegúrate de solicitar permiso al usuario antes de acceder a su ubicación. Ejemplo básico:</li>
+                <pre><code>navigator.geolocation.getCurrentPosition(function(position) {
+            console.log('Latitud:', position.coords.latitude);
+            console.log('Longitud:', position.coords.longitude);
+        }, function(error) {
+            console.error('Error de geolocalización:', error);
+        });</code></pre>
+                <li><strong>Canvas:</strong> HTML5 introduce el elemento <code>&lt;canvas&gt;</code> para dibujar gráficos dinámicos mediante JavaScript. Ejemplo básico:</li>
+                <pre><code>&lt;canvas id="miCanvas" width="200" height="200"&gt;&lt;/canvas&gt;
+        &lt;script&gt;
+        const canvas = document.getElementById('miCanvas');
+        const contexto = canvas.getContext('2d');
+        contexto.fillStyle = 'red';
+        contexto.fillRect(10, 10, 100, 100);
+        &lt;/script&gt;</code></pre>
+            </ul>
+            
+            <p>Estos temas adicionales representan solo una fracción de las capacidades de HTML5. Explorar y experimentar con estas características puede ayudarte a crear experiencias web más ricas e interactivas.</p>
+        </section>
+            </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript para manejar la visibilidad de las secciones -->
+    <script>
+        function mostrarSeccion(id) {
+            // Ocultar todas las secciones
+            const secciones = document.querySelectorAll('section');
+            secciones.forEach(seccion => seccion.style.display = 'none');
+
+            // Mostrar la sección seleccionada
+            const seccionSeleccionada = document.querySelector(id);
+            if (seccionSeleccionada) {
+                seccionSeleccionada.style.display = 'block';
+            }
+        }
+
+        // Añadir event listener a cada link del menú
+        const links = document.querySelectorAll('.dropdown-item');
+        links.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault(); // Evitar que el enlace recargue la página
+                const seccionId = this.getAttribute('href');
+                mostrarSeccion(seccionId);
+            });
+        });
+
+        // Mostrar la primera sección por defecto
+        document.addEventListener('DOMContentLoaded', function() {
+            mostrarSeccion('#antecedentes'); // Muestra la sección de antecedentes por defecto
+        });
+    </script>
+</body>
+
+</html>
